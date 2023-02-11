@@ -1,11 +1,15 @@
 import * as React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
-const Services = () => {
+const ServicesPage = () => {
   return (
-    <div>
-      <h1> Services</h1>
-    </div>
+    <main>
+      <title>Services Page</title>
+      <h1>Services</h1>
+      <Layout></Layout>
+    </main>
   );
 };
 
-export default Services;
+export default ServicesPage;

@@ -1,11 +1,15 @@
 import * as React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
-const Contact = () => {
+const ContactPage = () => {
   return (
-    <div>
-      <h1> Contact</h1>
-    </div>
+    <main>
+      <title>Contact Page</title>
+      <h1>Contact</h1>
+      <Layout></Layout>
+    </main>
   );
 };
 
-export default Contact;
+export default ContactPage;
