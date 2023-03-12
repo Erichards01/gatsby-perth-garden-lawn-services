@@ -1,10 +1,27 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { container } from "./layout.module.css";
+import { StaticImage } from "gatsby-plugin-image";
+import * as styles from "../components/layout.module.css";
 
-const Layout = () => {
+const Layout = ({ pageTitle, pageHeading, children }) => {
   return (
-    <main>
+    <main className={container}>
+      <title>{pageTitle}</title>
       <nav>
+        <StaticImage
+          style={{
+            position: "absolute",
+            margin: "0",
+            padding: "0",
+            outline: "0",
+            width: "100%",
+            backgroundRepeat: "repeat",
+          }}
+          className={styles.headerImage}
+          src="../images/Lawn4.JPG"
+          alt=""
+        />
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -20,7 +37,8 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-      <h1>Perth-Garden-and-Lawn-Services</h1>
+      <h1>{pageHeading}</h1>
+      {children}
     </main>
   );
 };

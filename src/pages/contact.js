@@ -4,11 +4,9 @@ import Layout from "../components/layout";
 
 const ContactPage = () => {
   return (
-    <main>
-      <title>Contact Page</title>
-      <h1>Contact</h1>
-      <Layout></Layout>
-    </main>
+    <Layout pageHeading="" pageTitle="Contact Page">
+      contact me on 92988356
+    </Layout>
   );
 };
 

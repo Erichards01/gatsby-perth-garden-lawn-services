@@ -1,14 +1,26 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import * as styles from "../components/layout.module.css";
 import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 const HomePage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>Home</h1>
-      <Layout></Layout>
-    </main>
+    <Layout pageHeading="" pageTitle="Home Page">
+      <div className={styles.heroContainer}>
+        <h1 className={styles.content}>Perth Garden and Lawn Services</h1>
+        <StaticImage
+          style={{
+            position: "absolute",
+            margin: "0",
+            padding: "0",
+            outline: "0",
+          }}
+          src="../images/Lawn3.JPG"
+          alt="Large lawn surrounded by hedge"
+          className={styles.backgroundImage}
+        />
+      </div>
+    </Layout>
   );
 };
 
