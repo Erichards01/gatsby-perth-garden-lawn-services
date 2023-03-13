@@ -17,6 +17,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
             outline: "0",
             width: "100%",
             backgroundRepeat: "repeat",
+            height: "9vh",
           }}
           className={styles.headerImage}
           src="../images/Lawn4.JPG"

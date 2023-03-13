@@ -15,7 +15,7 @@ const HomePage = () => {
             padding: "0",
             outline: "0",
           }}
-          src="../images/Lawn3.JPG"
+          src="../images/Lawn3.jpg"
           alt="Large lawn surrounded by hedge"
           className={styles.backgroundImage}
         />
