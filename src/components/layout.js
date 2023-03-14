@@ -10,19 +10,11 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
       <title>{pageTitle}</title>
       <nav>
         <StaticImage
-          style={{
-            position: "absolute",
-            margin: "0",
-            padding: "0",
-            outline: "0",
-            width: "100%",
-            backgroundRepeat: "repeat",
-            height: "9vh",
-          }}
           className={styles.headerImage}
-          src="../images/Lawn4.JPG"
+          src="../images/wood1.jpeg"
           alt=""
         />
+
         <ul>
           <li>
             <Link to="/">Home</Link>
