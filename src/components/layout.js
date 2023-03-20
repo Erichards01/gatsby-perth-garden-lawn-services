@@ -13,7 +13,9 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
           className={styles.headerImage}
           src="../images/wood1.jpeg"
           alt=""
+          layout="FIXED"
         />
+        <StaticImage className={styles.logo} src="../images/logo.JPG" alt="" />
 
         <ul>
           <li>
@@ -32,6 +34,13 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
       </nav>
       <h1>{pageHeading}</h1>
       {children}
+      <footer>
+        <StaticImage
+          className={styles.footerImage}
+          src="../images/Lawn5.jpg"
+          layout="fixed"
+        />
+      </footer>
     </main>
   );
 };
