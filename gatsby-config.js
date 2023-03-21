@@ -3,6 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
+    pathPrefix: `/storage/perthgardenlawnservices`,
     siteUrl: `https://www.yourdomain.tld`,
   },
 
