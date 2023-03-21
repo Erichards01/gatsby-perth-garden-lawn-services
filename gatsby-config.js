@@ -2,6 +2,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/perth-garden-lawn-services`,
+
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
