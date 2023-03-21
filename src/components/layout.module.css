@@ -101,6 +101,11 @@ li a:hover {
   display: flex;
 }
 
+.gatsby-image-wrapper {
+  position: absolute !important;
+  display: flex !important;
+}
+
 /* .headerImage {
   display: grid;
   grid-gap: 10px;
