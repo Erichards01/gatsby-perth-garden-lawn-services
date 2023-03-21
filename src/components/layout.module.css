@@ -97,7 +97,7 @@ li a:hover {
   outline: 0;
   height: 92px;
 
-  z-index: 2;
+  z-index: 3;
   display: flex;
 }
 

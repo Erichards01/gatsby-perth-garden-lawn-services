@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
           alt=""
           layout="FIXED"
         />
-        <StaticImage className={styles.logo} src="../images/Logo.JPG" alt="" />
+        <StaticImage className={styles.logo} src="../images/Logo.jpg" alt="" />
 
         <ul>
           <li>
@@ -37,7 +37,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
       <footer>
         <StaticImage
           className={styles.footerImage}
-          src="../images/Lawn4.jpg"
+          src="../images/Lawn5.jpg"
           layout="fixed"
         />
       </footer>
