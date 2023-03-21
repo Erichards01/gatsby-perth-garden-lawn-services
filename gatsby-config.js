@@ -3,8 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    pathPrefix: `/storage/perth-garden-lawn-services`,
-    siteUrl: `https://perthgardenlawnservices.gatsbyjs.io/`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
 
   plugins: [
