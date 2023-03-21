@@ -37,7 +37,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
       <footer>
         <StaticImage
           className={styles.footerImage}
-          src="../images/Lawn5.jpg"
+          src="../images/Lawn4.jpg"
           layout="fixed"
         />
       </footer>
