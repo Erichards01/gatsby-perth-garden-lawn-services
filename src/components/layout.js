@@ -1,7 +1,7 @@
 import * as React from "react";
 import { container } from "./layout.module.css";
 import { StaticImage } from "gatsby-plugin-image";
-import * as styles from "../components/layout.module.css";
+import * as styles from "./layout.module.css";
 import { Link } from "gatsby";
 
 const Layout = ({ pageTitle, pageHeading, children }) => {
