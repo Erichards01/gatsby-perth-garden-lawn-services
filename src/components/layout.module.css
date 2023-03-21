@@ -91,19 +91,14 @@ li a:hover {
   bottom: 0;
 }
 .logo {
-  position: absolute;
+  position: absolute !important;
+  display: flex !important;
   margin: 0;
   padding: 0;
   outline: 0;
   height: 92px;
 
   z-index: 2;
-  display: flex;
-}
-
-.gatsby-image-wrapper {
-  position: absolute !important;
-  display: flex !important;
 }
 
 /* .headerImage {
