@@ -16,7 +16,14 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#heroHeader {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  top: 20;
 }
 
 .backgroundImage {

@@ -7,7 +7,27 @@ const HomePage = () => {
   return (
     <Layout pageHeading="" pageTitle="Home Page">
       <div className={styles.heroContainer}>
-        <h1 className={styles.content}>Perth Garden and Lawn Services</h1>
+        <StaticImage
+          src="../images/LogoMower.jpg"
+          alt=""
+          className={styles.content}
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <StaticImage
+          src="../images/LogoLeaf.jpg"
+          alt=""
+          className={styles.content}
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <StaticImage
+          src="../images/LogoBin.jpg"
+          alt=""
+          className={styles.content}
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <h1 className={styles.content} id={styles.heroHeader}>
+          Perth Garden & Lawn Services
+        </h1>
         <StaticImage
           style={{
             position: "absolute",

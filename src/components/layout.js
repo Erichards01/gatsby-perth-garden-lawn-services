@@ -41,6 +41,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
           src="../images/LawnFooter.jpg"
           layout="fixed"
         />
+        {/* <p>0450 225 113</p> */}
       </footer>
     </main>
   );
