@@ -20,7 +20,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
 
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Home-test</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
