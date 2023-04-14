@@ -9,6 +9,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
   return (
     <main className={container}>
       <title>{pageTitle}</title>
+
       <nav>
         <StaticImage
           className={styles.headerImage}
@@ -20,7 +21,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
 
         <ul>
           <li>
-            <Link to="/">Home-test</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -33,6 +34,7 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
           </li>
         </ul>
       </nav>
+
       <h1>{pageHeading}</h1>
       {children}
       <footer>
